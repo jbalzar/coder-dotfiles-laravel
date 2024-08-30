@@ -39,10 +39,6 @@
     description: Installing code-server Tailwind CSS IntelliSense extension
     stdin: true
     stdout: true
-  - command: code-server --install-extension bradlc.vscode-tailwindcss
-    description: Installing code-server Tailwind CSS IntelliSense extension
-    stdin: true
-    stdout: true
   - command: code-server --install-extension Vue.volar
     description: Installing code-server Vue extension
     stdin: true
