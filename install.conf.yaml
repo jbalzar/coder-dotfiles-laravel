@@ -27,6 +27,28 @@
     description: Installing code-server DotENV extension
     stdin: true
     stdout: true
+  - command: code-server --install-extension DEVSENSE.phptools-vscode
+    description: Installing code-server PHP extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension onecentlin.laravel-extension-pack
+    description: Installing code-server Laravel Extensions Pack extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension bradlc.vscode-tailwindcss
+    description: Installing code-server Tailwind CSS IntelliSense extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension bradlc.vscode-tailwindcss
+    description: Installing code-server Tailwind CSS IntelliSense extension
+    stdin: true
+    stdout: true
+  - command: code-server --install-extension Vue.volar
+    description: Installing code-server Vue extension
+    stdin: true
+    stdout: true
+
+
 - link:
     ~/.local/share/code-server/User:
       create: true
