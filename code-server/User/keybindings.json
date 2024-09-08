@@ -37,10 +37,6 @@
 		"command": "-workbench.action.togglePanel"
 	},
 	{
-		"key": "ctrl+k i",
-		"command": "phptools.importClass"
-	},
-	{
 		"key": "ctrl+k k",
 		"command": "workbench.action.focusFirstEditorGroup"
 	},
@@ -118,5 +114,15 @@
 		"key": "ctrl+k ctrl+m",
 		"command": "-workbench.action.toggleMaximizeEditorGroup",
 		"when": "editorPartMaximizedEditorGroup || editorPartMultipleEditorGroups"
+	},
+	{
+		"key": "ctrl+k i",
+		"command": "namespaceResolver.import",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "-namespaceResolver.import",
+		"when": "editorTextFocus"
 	}
 ]
