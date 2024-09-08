@@ -38,7 +38,7 @@
   - command: code-server --install-extension xdebug.php-debug
     description: Installing code-server PHP Debug extension
     stdin: true
-    stdout: true	
+    stdout: true
   - command: code-server --install-extension Vue.volar
     description: Installing code-server Vue extension
     stdin: true
